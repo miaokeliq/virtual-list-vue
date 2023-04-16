@@ -63,16 +63,12 @@ onMounted(() => {
 .viewport {
   background-color: yellowgreen;
   width: 300px;
-  height: 400px;
   border: 1px solid grey;
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   overflow: scroll;
-}
-.scrollbar {
-  height: 3000px;
 }
 
 .list {
